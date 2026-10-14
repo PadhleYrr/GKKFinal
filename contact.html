@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact – Gumasta Krishi Kendra</title>
+  <meta name="description" content="Get in touch with Gumasta Krishi Kendra for product inquiries and agricultural guidance.">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Noto+Sans+Devanagari:wght@500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/global.css">
+  <link rel="stylesheet" href="assets/css/pages.css">
+  <link rel="stylesheet" href="assets/css/contact.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <div class="nav-brand">
+        <img src="assets/logo-128.png" alt="Gumasta Krishi Kendra" class="logo">
+        <div>
+          <h1>Gumasta Krishi Kendra</h1>
+          <p class="tagline">By Farmers, For Farmers</p>
+        </div>
+      </div>
+      
+      <button class="mobile-menu-btn" id="menuBtn">☰</button>
+      
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">All Products</a></li>
+        <li><a href="products.html?category=herbicides">Herbicides</a></li>
+        <li><a href="products.html?category=insecticides">Insecticides</a></li>
+        <li><a href="products.html?category=fertilizers">Fertilizers</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <section class="page-header">
+    <div class="container">
+      <h1>Get in Touch</h1>
+      <p>We're here to help with your agricultural needs</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact-section">
+    <div class="container">
+      <div class="contact-layout">
+        
+        <!-- Contact Information -->
+        <div class="contact-info">
+          <h2>Contact Information</h2>
+          <p>Have questions about our products? Need guidance on agricultural solutions? We'd love to hear from you!</p>
+          
+          <div class="info-item">
+            <h3>📧 Email</h3>
+            <p><a href="mailto:info@gumastakrishi.com">info@gumastakrishi.com</a></p>
+          </div>
+
+          <div class="info-item">
+            <h3>📱 Phone</h3>
+            <p><a href="tel:+919876543210">+91 9876 543 210</a></p>
+          </div>
+
+          <div class="info-item">
+            <h3>📍 Location</h3>
+            <p>Agricultural Service Center<br>Your City, State<br>India - 123456</p>
+          </div>
+
+          <div class="info-item">
+            <h3>⏰ Business Hours</h3>
+            <p>Monday - Friday: 9:00 AM - 6:00 PM<br>
+               Saturday: 9:00 AM - 2:00 PM<br>
+               Sunday: Closed</p>
+          </div>
+
+          <div class="info-item">
+            <h3>🌐 Follow Us</h3>
+            <div class="social-links">
+              <a href="#" class="social-link">Facebook</a>
+              <a href="#" class="social-link">Instagram</a>
+              <a href="#" class="social-link">WhatsApp</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form-section">
+          <h2>Send Us a Message</h2>
+          <form class="contact-form" id="contactForm">
+            <div class="form-group">
+              <label for="name">Full Name *</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address *</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone">
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Subject *</label>
+              <select id="subject" name="subject" required>
+                <option value="">Select a subject...</option>
+                <option value="product-inquiry">Product Inquiry</option>
+                <option value="bulk-order">Bulk Order</option>
+                <option value="technical-help">Technical Help</option>
+                <option value="general">General Inquiry</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message *</label>
+              <textarea id="message" name="message" rows="6" required placeholder="Tell us about your inquiry..."></textarea>
+            </div>
+
+            <div class="form-group">
+              <label for="farm-size">Farm Size / Area (Optional)</label>
+              <input type="text" id="farm-size" name="farm-size" placeholder="e.g., 5 acres, 2 hectares">
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-large">Send Message</button>
+            <p class="form-note">We'll respond to your inquiry within 24 hours.</p>
+          </form>
+          <div id="formMessage" class="form-message" style="display: none;"></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>Gumasta Krishi Kendra</h4>
+          <p>Your trusted agricultural service center providing premium crop protection and soil health solutions.</p>
+        </div>
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="products.html?category=herbicides">Herbicides</a></li>
+            <li><a href="products.html?category=insecticides">Insecticides</a></li>
+            <li><a href="products.html?category=fertilizers">Fertilizers</a></li>
+            <li><a href="products.html?category=biostimulants">Bio-Stimulants</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Gumasta Krishi Kendra. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/global.js"></script>
+  <script src="assets/js/contact.js"></script>
+</body>
+</html>
